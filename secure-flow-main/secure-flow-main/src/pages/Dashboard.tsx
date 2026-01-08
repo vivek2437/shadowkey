@@ -49,11 +49,8 @@ const initialSession = {
   riskLevel: 'initializing' as 'low' | 'medium' | 'high' | 'initializing',
 };
 
-const initialActivity = [
-  { time: '2 min ago', action: 'Keystroke verification passed', status: 'success' },
-  { time: '15 min ago', action: 'Voice verification passed', status: 'success' },
-  { time: '45 min ago', action: 'Session started', status: 'info' },
-  { time: '1 hour ago', action: 'Login from new device detected', status: 'warning' },
+const initialActivity: Array<{ time: string; action: string; status: string }> = [
+  // Activity log will be populated with real events from WebSocket and API calls
 ];
 
 // Components
