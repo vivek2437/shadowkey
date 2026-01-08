@@ -1,0 +1,166 @@
+{
+    "session_metadata": {
+        "session_id": 1,
+        "user_id": "default_user",
+        "start_time": 1736176200.5,
+        "start_time_readable": "2026-01-06T20:00:00",
+        "end_time": 1736176245.8,
+        "end_time_readable": "2026-01-06T20:00:45",
+        "total_keys": 112,
+        "created_at": "2026-01-06 20:00:45"
+    },
+    "keystrokes": [
+        {
+            "event_id": 1,
+            "key": "T",
+            "timestamp": 1736176200.5,
+            "event_type": "down",
+            "key_code": 84
+        },
+        {
+            "event_id": 2,
+            "key": "T",
+            "timestamp": 1736176200.62,
+            "event_type": "up",
+            "key_code": 84
+        },
+        {
+            "event_id": 3,
+            "key": "h",
+            "timestamp": 1736176200.75,
+            "event_type": "down",
+            "key_code": 72
+        },
+        {
+            "event_id": 4,
+            "key": "h",
+            "timestamp": 1736176200.85,
+            "event_type": "up",
+            "key_code": 72
+        },
+        {
+            "event_id": 5,
+            "key": "e",
+            "timestamp": 1736176200.95,
+            "event_type": "down",
+            "key_code": 69
+        },
+        {
+            "event_id": 6,
+            "key": "e",
+            "timestamp": 1736176201.05,
+            "event_type": "up",
+            "key_code": 69
+        }
+    ],
+    "features": {
+        "hold_times": {
+            "measurements": [
+                {
+                    "key": "T",
+                    "hold_time_ms": 120
+                },
+                {
+                    "key": "h",
+                    "hold_time_ms": 100
+                },
+                {
+                    "key": "e",
+                    "hold_time_ms": 110
+                }
+            ],
+            "count": 112,
+            "mean_ms": 108.5,
+            "median_ms": 105.0,
+            "std_dev_ms": 15.3,
+            "min_ms": 85,
+            "max_ms": 145
+        },
+        "flight_times": {
+            "down_down": {
+                "measurements": [
+                    {
+                        "from_key": "T",
+                        "to_key": "h",
+                        "interval_ms": 250
+                    },
+                    {
+                        "from_key": "h",
+                        "to_key": "e",
+                        "interval_ms": 200
+                    }
+                ],
+                "count": 111,
+                "mean_ms": 215.8,
+                "median_ms": 210.0,
+                "std_dev_ms": 42.5
+            },
+            "up_down": {
+                "measurements": [
+                    {
+                        "from_key": "T",
+                        "to_key": "h",
+                        "interval_ms": 130
+                    },
+                    {
+                        "from_key": "h",
+                        "to_key": "e",
+                        "interval_ms": 100
+                    }
+                ],
+                "count": 111,
+                "mean_ms": 118.3,
+                "median_ms": 115.0,
+                "std_dev_ms": 28.7
+            }
+        },
+        "digraphs": {
+            "measurements": [
+                {
+                    "digraph": "Th",
+                    "interval_ms": 250
+                },
+                {
+                    "digraph": "he",
+                    "interval_ms": 200
+                },
+                {
+                    "digraph": "e ",
+                    "interval_ms": 180
+                }
+            ],
+            "count": 111,
+            "unique_digraphs": 87
+        },
+        "trigraphs": {
+            "measurements": [
+                {
+                    "trigraph": "The",
+                    "avg_interval_ms": 225,
+                    "total_duration_ms": 450
+                },
+                {
+                    "trigraph": "he ",
+                    "avg_interval_ms": 190,
+                    "total_duration_ms": 380
+                }
+            ],
+            "count": 110,
+            "unique_trigraphs": 95
+        },
+        "typing_speed": {
+            "characters_per_second": 2.47,
+            "words_per_minute": 29.64,
+            "total_characters": 112,
+            "session_duration_seconds": 45.3
+        },
+        "error_count": {
+            "backspace_count": 5,
+            "delete_count": 0,
+            "total_errors": 5,
+            "error_rate_percent": 4.46
+        },
+        "total_keys": 112,
+        "session_duration": 45.3
+    }
+}

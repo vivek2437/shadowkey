@@ -1,0 +1,14 @@
+{
+  "user_id": "default_user",
+  "database_path": "shadowkey_data.db",
+  "ui_settings": {
+    "window_width": 900,
+    "window_height": 700,
+    "theme": "dark"
+  },
+  "feature_settings": {
+    "capture_special_keys": true,
+    "track_backspace_as_error": true,
+    "track_delete_as_error": true
+  }
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\project\phase4\shadowkey_phase4.py", line 550, in <module>
+    main()
+  File "D:\project\phase4\shadowkey_phase4.py", line 543, in main
+    app = ShadowKeyAppPhase4(root, user_id, username)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\phase4\shadowkey_phase4.py", line 121, in __init__
+    self._create_widgets()
+  File "D:\project\phase4\shadowkey_phase4.py", line 237, in _create_widgets
+    log_frame.pack(fill=tk.X, expand=False, height=150)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2471, in pack_configure
+    self.tk.call(
+_tkinter.TclError: bad option "-height": must be -after, -anchor, -before, -expand, -fill, -in, -ipadx, -ipady, -padx, -pady, or -side

@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # Redis Service
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - shadowkey_net
+
+  # ShadowKey Auth Service
+  auth_service:
+    build: 
+      context: .. # Build from project root to include phase5 module path
+      dockerfile: phase5/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    networks:
+      - shadowkey_net
+
+volumes:
+  redis_data:
+
+networks:
+  shadowkey_net:

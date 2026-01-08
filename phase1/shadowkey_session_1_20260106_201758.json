@@ -1,0 +1,564 @@
+{
+  "session_metadata": {
+    "session_id": 1,
+    "user_id": "default_user",
+    "start_time": 1767710864.521016,
+    "start_time_readable": "2026-01-06T20:17:44.521016",
+    "end_time": 1767710872.8081253,
+    "end_time_readable": "2026-01-06T20:17:52.808125",
+    "total_keys": 14,
+    "created_at": "2026-01-06 14:47:44"
+  },
+  "keystrokes": [
+    {
+      "event_id": 1,
+      "key": "h",
+      "timestamp": 1767710867.9038365,
+      "event_type": "down",
+      "key_code": 72
+    },
+    {
+      "event_id": 2,
+      "key": "h",
+      "timestamp": 1767710867.9603002,
+      "event_type": "up",
+      "key_code": 72
+    },
+    {
+      "event_id": 3,
+      "key": "i",
+      "timestamp": 1767710868.0585608,
+      "event_type": "down",
+      "key_code": 73
+    },
+    {
+      "event_id": 4,
+      "key": "i",
+      "timestamp": 1767710868.1865275,
+      "event_type": "up",
+      "key_code": 73
+    },
+    {
+      "event_id": 5,
+      "key": " ",
+      "timestamp": 1767710868.2514868,
+      "event_type": "down",
+      "key_code": 32
+    },
+    {
+      "event_id": 6,
+      "key": " ",
+      "timestamp": 1767710868.3485637,
+      "event_type": "up",
+      "key_code": 32
+    },
+    {
+      "event_id": 7,
+      "key": "h",
+      "timestamp": 1767710868.474946,
+      "event_type": "down",
+      "key_code": 72
+    },
+    {
+      "event_id": 8,
+      "key": "h",
+      "timestamp": 1767710868.580971,
+      "event_type": "up",
+      "key_code": 72
+    },
+    {
+      "event_id": 9,
+      "key": "e",
+      "timestamp": 1767710868.6802292,
+      "event_type": "down",
+      "key_code": 69
+    },
+    {
+      "event_id": 10,
+      "key": "e",
+      "timestamp": 1767710868.808458,
+      "event_type": "up",
+      "key_code": 69
+    },
+    {
+      "event_id": 11,
+      "key": "l",
+      "timestamp": 1767710868.9604454,
+      "event_type": "down",
+      "key_code": 76
+    },
+    {
+      "event_id": 12,
+      "key": "l",
+      "timestamp": 1767710869.0200193,
+      "event_type": "up",
+      "key_code": 76
+    },
+    {
+      "event_id": 13,
+      "key": "l",
+      "timestamp": 1767710869.1046963,
+      "event_type": "down",
+      "key_code": 76
+    },
+    {
+      "event_id": 14,
+      "key": "l",
+      "timestamp": 1767710869.1803315,
+      "event_type": "up",
+      "key_code": 76
+    },
+    {
+      "event_id": 15,
+      "key": "o",
+      "timestamp": 1767710869.3115087,
+      "event_type": "down",
+      "key_code": 79
+    },
+    {
+      "event_id": 16,
+      "key": "o",
+      "timestamp": 1767710869.4368935,
+      "event_type": "up",
+      "key_code": 79
+    },
+    {
+      "event_id": 17,
+      "key": " ",
+      "timestamp": 1767710869.4802606,
+      "event_type": "down",
+      "key_code": 32
+    },
+    {
+      "event_id": 18,
+      "key": " ",
+      "timestamp": 1767710869.580569,
+      "event_type": "up",
+      "key_code": 32
+    },
+    {
+      "event_id": 19,
+      "key": "v",
+      "timestamp": 1767710870.252897,
+      "event_type": "down",
+      "key_code": 86
+    },
+    {
+      "event_id": 20,
+      "key": "v",
+      "timestamp": 1767710870.3472345,
+      "event_type": "up",
+      "key_code": 86
+    },
+    {
+      "event_id": 21,
+      "key": "i",
+      "timestamp": 1767710870.3803875,
+      "event_type": "down",
+      "key_code": 73
+    },
+    {
+      "event_id": 22,
+      "key": "i",
+      "timestamp": 1767710870.4940186,
+      "event_type": "up",
+      "key_code": 73
+    },
+    {
+      "event_id": 23,
+      "key": "v",
+      "timestamp": 1767710870.6423485,
+      "event_type": "down",
+      "key_code": 86
+    },
+    {
+      "event_id": 24,
+      "key": "v",
+      "timestamp": 1767710870.710802,
+      "event_type": "up",
+      "key_code": 86
+    },
+    {
+      "event_id": 25,
+      "key": "e",
+      "timestamp": 1767710870.8200047,
+      "event_type": "down",
+      "key_code": 69
+    },
+    {
+      "event_id": 26,
+      "key": "e",
+      "timestamp": 1767710870.902933,
+      "event_type": "up",
+      "key_code": 69
+    },
+    {
+      "event_id": 27,
+      "key": "k",
+      "timestamp": 1767710871.0919333,
+      "event_type": "down",
+      "key_code": 75
+    },
+    {
+      "event_id": 28,
+      "key": "k",
+      "timestamp": 1767710871.1805325,
+      "event_type": "up",
+      "key_code": 75
+    }
+  ],
+  "features": {
+    "hold_times": {
+      "measurements": [
+        {
+          "key": "h",
+          "hold_time_ms": 56.46371841430664
+        },
+        {
+          "key": "i",
+          "hold_time_ms": 127.96664237976074
+        },
+        {
+          "key": " ",
+          "hold_time_ms": 97.0768928527832
+        },
+        {
+          "key": "h",
+          "hold_time_ms": 106.02498054504395
+        },
+        {
+          "key": "e",
+          "hold_time_ms": 128.22890281677246
+        },
+        {
+          "key": "l",
+          "hold_time_ms": 59.57388877868652
+        },
+        {
+          "key": "l",
+          "hold_time_ms": 75.63519477844238
+        },
+        {
+          "key": "o",
+          "hold_time_ms": 125.38480758666992
+        },
+        {
+          "key": " ",
+          "hold_time_ms": 100.30841827392578
+        },
+        {
+          "key": "v",
+          "hold_time_ms": 94.33746337890625
+        },
+        {
+          "key": "i",
+          "hold_time_ms": 113.63101005554199
+        },
+        {
+          "key": "v",
+          "hold_time_ms": 68.45355033874512
+        },
+        {
+          "key": "e",
+          "hold_time_ms": 82.92818069458008
+        },
+        {
+          "key": "k",
+          "hold_time_ms": 88.59920501708984
+        }
+      ],
+      "count": 14,
+      "mean_ms": 94.61520399366107,
+      "median_ms": 95.70717811584473,
+      "std_dev_ms": 24.21090436318718,
+      "min_ms": 56.46371841430664,
+      "max_ms": 128.22890281677246
+    },
+    "flight_times": {
+      "down_down": {
+        "measurements": [
+          {
+            "from_key": "h",
+            "to_key": "i",
+            "interval_ms": 154.7243595123291
+          },
+          {
+            "from_key": "i",
+            "to_key": " ",
+            "interval_ms": 192.92593002319336
+          },
+          {
+            "from_key": " ",
+            "to_key": "h",
+            "interval_ms": 223.45924377441406
+          },
+          {
+            "from_key": "h",
+            "to_key": "e",
+            "interval_ms": 205.28316497802734
+          },
+          {
+            "from_key": "e",
+            "to_key": "l",
+            "interval_ms": 280.2162170410156
+          },
+          {
+            "from_key": "l",
+            "to_key": "l",
+            "interval_ms": 144.25086975097656
+          },
+          {
+            "from_key": "l",
+            "to_key": "o",
+            "interval_ms": 206.81238174438477
+          },
+          {
+            "from_key": "o",
+            "to_key": " ",
+            "interval_ms": 168.75195503234863
+          },
+          {
+            "from_key": " ",
+            "to_key": "v",
+            "interval_ms": 772.6364135742188
+          },
+          {
+            "from_key": "v",
+            "to_key": "i",
+            "interval_ms": 127.49052047729492
+          },
+          {
+            "from_key": "i",
+            "to_key": "v",
+            "interval_ms": 261.9609832763672
+          },
+          {
+            "from_key": "v",
+            "to_key": "e",
+            "interval_ms": 177.6561737060547
+          },
+          {
+            "from_key": "e",
+            "to_key": "k",
+            "interval_ms": 271.9285488128662
+          }
+        ],
+        "count": 13,
+        "mean_ms": 245.2382124387301,
+        "median_ms": 205.28316497802734,
+        "std_dev_ms": 165.66064624837784
+      },
+      "up_down": {
+        "measurements": [
+          {
+            "from_key": "h",
+            "to_key": "i",
+            "interval_ms": 98.26064109802246
+          },
+          {
+            "from_key": "i",
+            "to_key": " ",
+            "interval_ms": 64.95928764343262
+          },
+          {
+            "from_key": " ",
+            "to_key": "h",
+            "interval_ms": 126.38235092163086
+          },
+          {
+            "from_key": "h",
+            "to_key": "e",
+            "interval_ms": 99.2581844329834
+          },
+          {
+            "from_key": "e",
+            "to_key": "l",
+            "interval_ms": 151.98731422424316
+          },
+          {
+            "from_key": "l",
+            "to_key": "l",
+            "interval_ms": 84.67698097229004
+          },
+          {
+            "from_key": "l",
+            "to_key": "o",
+            "interval_ms": 131.17718696594238
+          },
+          {
+            "from_key": "o",
+            "to_key": " ",
+            "interval_ms": 43.36714744567871
+          },
+          {
+            "from_key": " ",
+            "to_key": "v",
+            "interval_ms": 672.327995300293
+          },
+          {
+            "from_key": "v",
+            "to_key": "i",
+            "interval_ms": 33.15305709838867
+          },
+          {
+            "from_key": "i",
+            "to_key": "v",
+            "interval_ms": 148.3299732208252
+          },
+          {
+            "from_key": "v",
+            "to_key": "e",
+            "interval_ms": 109.20262336730957
+          },
+          {
+            "from_key": "e",
+            "to_key": "k",
+            "interval_ms": 189.00036811828613
+          }
+        ],
+        "count": 13,
+        "mean_ms": 150.16023929302509,
+        "median_ms": 109.20262336730957,
+        "std_dev_ms": 162.9685479794644
+      }
+    },
+    "digraphs": {
+      "measurements": [
+        {
+          "digraph": "hi",
+          "interval_ms": 154.7243595123291
+        },
+        {
+          "digraph": "i ",
+          "interval_ms": 192.92593002319336
+        },
+        {
+          "digraph": " h",
+          "interval_ms": 223.45924377441406
+        },
+        {
+          "digraph": "he",
+          "interval_ms": 205.28316497802734
+        },
+        {
+          "digraph": "el",
+          "interval_ms": 280.2162170410156
+        },
+        {
+          "digraph": "ll",
+          "interval_ms": 144.25086975097656
+        },
+        {
+          "digraph": "lo",
+          "interval_ms": 206.81238174438477
+        },
+        {
+          "digraph": "o ",
+          "interval_ms": 168.75195503234863
+        },
+        {
+          "digraph": " v",
+          "interval_ms": 772.6364135742188
+        },
+        {
+          "digraph": "vi",
+          "interval_ms": 127.49052047729492
+        },
+        {
+          "digraph": "iv",
+          "interval_ms": 261.9609832763672
+        },
+        {
+          "digraph": "ve",
+          "interval_ms": 177.6561737060547
+        },
+        {
+          "digraph": "ek",
+          "interval_ms": 271.9285488128662
+        }
+      ],
+      "count": 13,
+      "unique_digraphs": 13
+    },
+    "trigraphs": {
+      "measurements": [
+        {
+          "trigraph": "hi ",
+          "avg_interval_ms": 173.82514476776123,
+          "total_duration_ms": 347.65028953552246
+        },
+        {
+          "trigraph": "i h",
+          "avg_interval_ms": 208.1925868988037,
+          "total_duration_ms": 416.3851737976074
+        },
+        {
+          "trigraph": " he",
+          "avg_interval_ms": 214.3712043762207,
+          "total_duration_ms": 428.7424087524414
+        },
+        {
+          "trigraph": "hel",
+          "avg_interval_ms": 242.74969100952148,
+          "total_duration_ms": 485.49938201904297
+        },
+        {
+          "trigraph": "ell",
+          "avg_interval_ms": 212.2335433959961,
+          "total_duration_ms": 424.4670867919922
+        },
+        {
+          "trigraph": "llo",
+          "avg_interval_ms": 175.53162574768066,
+          "total_duration_ms": 351.0632514953613
+        },
+        {
+          "trigraph": "lo ",
+          "avg_interval_ms": 187.7821683883667,
+          "total_duration_ms": 375.5643367767334
+        },
+        {
+          "trigraph": "o v",
+          "avg_interval_ms": 470.6941843032837,
+          "total_duration_ms": 941.3883686065674
+        },
+        {
+          "trigraph": " vi",
+          "avg_interval_ms": 450.06346702575684,
+          "total_duration_ms": 900.1269340515137
+        },
+        {
+          "trigraph": "viv",
+          "avg_interval_ms": 194.72575187683105,
+          "total_duration_ms": 389.4515037536621
+        },
+        {
+          "trigraph": "ive",
+          "avg_interval_ms": 219.80857849121094,
+          "total_duration_ms": 439.6171569824219
+        },
+        {
+          "trigraph": "vek",
+          "avg_interval_ms": 224.79236125946045,
+          "total_duration_ms": 449.5847225189209
+        }
+      ],
+      "count": 12,
+      "unique_trigraphs": 12
+    },
+    "typing_speed": {
+      "characters_per_second": 4.39,
+      "words_per_minute": 52.7,
+      "total_characters": 14,
+      "session_duration_seconds": 3.19
+    },
+    "error_count": {
+      "backspace_count": 0,
+      "delete_count": 0,
+      "total_errors": 0,
+      "error_rate_percent": 0.0
+    },
+    "total_keys": 14,
+    "session_duration": 3.28
+  }
+}

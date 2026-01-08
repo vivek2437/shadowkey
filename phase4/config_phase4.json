@@ -1,0 +1,23 @@
+{
+    "ml": {
+        "model_dir": "models",
+        "contamination": 0.05,
+        "voice_nu": 0.05,
+        "voice_gamma": "auto"
+    },
+    "fusion": {
+        "weights": {
+            "keystroke": 0.6,
+            "voice": 0.4
+        },
+        "thresholds": {
+            "low": 0.3,
+            "high": 0.75
+        }
+    },
+    "voice": {
+        "sample_duration": 5.0,
+        "sample_rate": 22050,
+        "min_samples_for_training": 5
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "database": {
+    "path": "shadowkey_data.db"
+  },
+  "export": {
+    "json_dir": "exports/json",
+    "csv_dir": "exports/csv"
+  },
+  "ml": {
+    "model_dir": "models",
+    "contamination": 0.05,
+    "min_training_sessions": 5,
+    "prediction_interval": 50,
+    "n_estimators": 100
+  },
+  "cloud": {
+    "storage_dir": "cloud_storage",
+    "sync_interval_seconds": 300,
+    "max_retry_attempts": 3
+  },
+  "auth": {
+    "session_timeout_minutes": 30,
+    "password_min_length": 4
+  },
+  "visualization": {
+    "update_interval": 10,
+    "rolling_window_size": 100,
+    "chart_refresh_rate": 1.0
+  },
+  "session": {
+    "timeout_seconds": 300,
+    "min_keystrokes": 20
+  },
+  "features": {
+    "top_digraphs_count": 10,
+    "speed_window_size": 30
+  }
+}

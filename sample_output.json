@@ -1,0 +1,123 @@
+{
+    "session": {
+        "session_id": 1,
+        "user_id": 1,
+        "start_time": "2026-01-06T21:30:00.123456",
+        "end_time": "2026-01-06T21:32:15.654321",
+        "total_keys": 127,
+        "typing_speed": 4.23,
+        "error_count": 3
+    },
+    "keystrokes": [
+        {
+            "keystroke_id": 1,
+            "session_id": 1,
+            "key": "h",
+            "event_type": "down",
+            "timestamp": 1704572400.123456
+        },
+        {
+            "keystroke_id": 2,
+            "session_id": 1,
+            "key": "h",
+            "event_type": "up",
+            "timestamp": 1704572400.173821
+        },
+        {
+            "keystroke_id": 3,
+            "session_id": 1,
+            "key": "e",
+            "event_type": "down",
+            "timestamp": 1704572400.298765
+        },
+        {
+            "keystroke_id": 4,
+            "session_id": 1,
+            "key": "e",
+            "event_type": "up",
+            "timestamp": 1704572400.351234
+        },
+        {
+            "keystroke_id": 5,
+            "session_id": 1,
+            "key": "l",
+            "event_type": "down",
+            "timestamp": 1704572400.476543
+        },
+        {
+            "keystroke_id": 6,
+            "session_id": 1,
+            "key": "l",
+            "event_type": "up",
+            "timestamp": 1704572400.529876
+        },
+        {
+            "keystroke_id": 7,
+            "session_id": 1,
+            "key": "l",
+            "event_type": "down",
+            "timestamp": 1704572400.654321
+        },
+        {
+            "keystroke_id": 8,
+            "session_id": 1,
+            "key": "l",
+            "event_type": "up",
+            "timestamp": 1704572400.707654
+        },
+        {
+            "keystroke_id": 9,
+            "session_id": 1,
+            "key": "o",
+            "event_type": "down",
+            "timestamp": 1704572400.832987
+        },
+        {
+            "keystroke_id": 10,
+            "session_id": 1,
+            "key": "o",
+            "event_type": "up",
+            "timestamp": 1704572400.886320
+        }
+    ],
+    "features": {
+        "total_keys": 127,
+        "error_count": 3,
+        "typing_speed_cps": 4.23,
+        "typing_speed_wpm": 50.76,
+        "hold_times_mean": 0.0521,
+        "hold_times_median": 0.0498,
+        "hold_times_stdev": 0.0134,
+        "dd_intervals_mean": 0.0987,
+        "dd_intervals_median": 0.0921,
+        "dd_intervals_stdev": 0.0213,
+        "ud_intervals_mean": 0.0765,
+        "ud_intervals_median": 0.0741,
+        "ud_intervals_stdev": 0.0187
+    },
+    "ml_predictions": [
+        {
+            "prediction_id": 1,
+            "session_id": 1,
+            "timestamp": 1704572450.345678,
+            "is_anomaly": 0,
+            "confidence_score": 0.87
+        },
+        {
+            "prediction_id": 2,
+            "session_id": 1,
+            "timestamp": 1704572470.567890,
+            "is_anomaly": 0,
+            "confidence_score": 0.91
+        },
+        {
+            "prediction_id": 3,
+            "session_id": 1,
+            "timestamp": 1704572490.789012,
+            "is_anomaly": 0,
+            "confidence_score": 0.89
+        }
+    ],
+    "export_timestamp": "2026-01-06T21:35:00.000000",
+    "export_notes": "Sample output from ShadowKey Phase 2 typing session with ML predictions"
+}

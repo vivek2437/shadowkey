@@ -1,0 +1,32 @@
+{
+    "dl": {
+        "keystroke": {
+            "sequence_length": 50,
+            "embedding_dim": 64,
+            "hidden_dim": 128,
+            "layers": 2,
+            "model_path": "models/keystroke_dl.pth"
+        },
+        "voice": {
+            "sample_rate": 16000,
+            "n_mels": 80,
+            "embedding_dim": 192,
+            "model_path": "models/voice_dl.pth"
+        },
+        "fusion": {
+            "hidden_dim": 32,
+            "model_path": "models/fusion_dl.pth"
+        }
+    },
+    "policy": {
+        "trust_threshold": 0.8,
+        "step_up_threshold": 0.5,
+        "block_threshold": 0.2,
+        "window_seconds": 60
+    },
+    "api": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "redis_url": "redis://localhost:6379/0"
+    }
+}
